@@ -86,4 +86,49 @@ header {
             }
         }
     }
+}
+
+.jumbotron img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+.footer-box {
+    height: 370px;
+    background-image: url("../images/footer-bg.jpg");
+    background-size: cover;
+    .content {
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      div {
+        padding: 30px;
+        h4 {
+          padding: 10px 0;
+          color: white;
+          font-size: 1.1rem;
+        }
+      }
+      ul {
+        list-style: none;
+        a {
+          text-decoration: none;
+          color: #959595;
+          font-size: 0.75rem;
+          display: inline-block;
+          padding: 5px 0;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .bglogo {
+      position: absolute;
+      top: -80px;
+      right: 0;
+    }
   }
