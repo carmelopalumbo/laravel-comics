@@ -1,0 +1,1 @@
+<h2>COLLECTIBLES</h2>
