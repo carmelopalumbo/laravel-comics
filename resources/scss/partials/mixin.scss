@@ -1,0 +1,35 @@
+// mixin
+
+@use "./variables" as *;
+
+@mixin justify-between(){
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin reset-list(){
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+@mixin reset-links(){
+    padding: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+@mixin buttons(){
+    border-radius: 0;
+    border: 0;
+    font-weight: bold;
+    color: white;
+    background-color: $secondary-color;
+    cursor: pointer;
+    padding: 8px 45px;
+    &:hover{
+        background-color: darken($secondary-color, 10%);
+    }
+}
