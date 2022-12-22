@@ -1,1 +1,5 @@
-<h2>COLLECTIBLES</h2>
+@extends('layouts.main')
+
+@section('content')
+    <h1>COLLECTIBLES</h1>
+@endsection

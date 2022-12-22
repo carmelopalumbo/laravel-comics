@@ -1,1 +1,5 @@
-<h2>MOVIES</h2>
+@extends('layouts.main')
+
+@section('content')
+    <h1>MOVIES</h1>
+@endsection

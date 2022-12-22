@@ -1,1 +1,5 @@
-<h2>COMICS</h2>
+@extends('layouts.main')
+
+@section('content')
+    <h1>COMICS</h1>
+@endsection

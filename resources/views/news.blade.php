@@ -1,1 +1,5 @@
-<h2>NEWS</h2>
+@extends('layouts.main')
+
+@section('content')
+    <h1>NEWS</h1>
+@endsection

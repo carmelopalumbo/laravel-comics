@@ -1,1 +1,5 @@
-<h2>FANS</h2>
+@extends('layouts.main')
+
+@section('content')
+    <h1>FANS</h1>
+@endsection

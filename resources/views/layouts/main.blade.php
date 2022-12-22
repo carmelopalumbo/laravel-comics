@@ -8,11 +8,20 @@
 
     <!-- Styles -->
     @vite('resources/js/app.js')
+
     <title>DC Comics Laravel</title>
 </head>
 
 <body>
-    <h1>TEST</h1>
+
+    {{-- header --}}
+    @include('partials.header')
+
+    {{-- content --}}
+    @yield('content')
+
+    {{-- footer --}}
+    @include('partials.footer')
 </body>
 
 </html>
