@@ -162,3 +162,28 @@ header {
       }
     }
   }
+
+  .menu-box {
+    background-color: $secondary-color;
+    overflow-y: auto;
+    .content {
+      ul {
+        @include reset-list();
+        justify-content: space-between;
+        li {
+          display: flex;
+          align-items: center;
+          @include reset-links();
+          img {
+            transform: scale(0.5);
+          }
+          a {
+            text-decoration: none;
+            color: white;
+            font-size: 0.9rem;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }

@@ -1,3 +1,34 @@
+<div class="menu-box">
+    <div class="content">
+        <ul>
+            <li>
+                <img src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png') }}" alt="link" />
+                <a href="#">DIGITAL COMICS</a>
+            </li>
+
+            <li>
+                <img src="{{ Vite::asset('resources/images/buy-comics-merchandise.png') }}" alt="link" />
+                <a href="#">DC MERCHANDISE</a>
+            </li>
+
+            <li>
+                <img src="{{ Vite::asset('resources/images/buy-comics-subscriptions.png') }}" alt="link" />
+                <a href="#">SUBSCRIPTIONS</a>
+            </li>
+
+            <li>
+                <img src="{{ Vite::asset('resources/images/buy-comics-shop-locator.png') }}" alt="link" />
+                <a href="#">COMIC SHOP LOCATOR</a>
+            </li>
+
+            <li>
+                <img src="{{ Vite::asset('resources/images/buy-dc-power-visa.svg') }}" alt="link" />
+                <a href="#">DC POWER VISA</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
 <div class="footer-box">
     <div class="content">
         <div>
