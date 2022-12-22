@@ -132,3 +132,33 @@ header {
       right: 0;
     }
   }
+
+.footer-bottom {
+    height: 110px;
+    background-color: lighten($primary-color, 8%);
+    .content-bottom {
+      @include justify-between();
+      height: 100%;
+      align-items: center;
+      & > h4 {
+        margin-left: 40px;
+        padding: 13px;
+        border: 2px solid $secondary-color;
+        color: white;
+        cursor: pointer;
+      }
+      .follow-us {
+        display: flex;
+        img {
+          margin: 0 7px;
+          cursor: pointer;
+        }
+        & > h4 {
+          color: $secondary-color;
+          margin-right: 30px;
+          padding-top: 5px;
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
