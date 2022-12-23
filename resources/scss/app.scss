@@ -13,15 +13,15 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+main{
+    background-color: $primary-color;
+}
+
 .content{
     width: 70%;
     margin: 0 auto;
 }
 
-//da rimuovere
-h1{
-    text-align: center;
-    padding: 50px 0;
-}
 @import "./partials/header.scss";
 @import "./partials/footer.scss";
+@import "./partials/card.scss";

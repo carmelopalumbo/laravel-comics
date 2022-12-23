@@ -1,5 +1,14 @@
 @extends('layouts.main')
 
 @section('content')
-    <h1>COMICS</h1>
+    <main>
+        <a class="card-box" href="#">
+            @foreach ($products as $product)
+                <div class="card">
+                    <img src="{{ $product['thumb'] }}" alt="{{ $product['title'] }}" />
+                    <h4>{{ $product['title'] }}</h4>
+                </div>
+            @endforeach
+        </a>
+    </main>
 @endsection

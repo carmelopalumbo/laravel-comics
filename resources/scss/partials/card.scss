@@ -1,0 +1,30 @@
+.card {
+    width: calc(100% / 6);
+    padding: 20px;
+    cursor: pointer;
+    img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      object-position: top;
+      transition: 0.4s all;
+      &:hover{
+        transform: scale(1.08);
+      }
+    }
+    h4 {
+      color: white;
+      font-weight: 400;
+      font-size: 0.85rem;
+      padding: 15px 0;
+      vertical-align: middle;
+      text-transform: uppercase;
+    }
+  }
+
+  .card-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+  }

@@ -64,9 +64,15 @@ header {
     }
 }
 
-.jumbotron img {
+.jumbotron{
     height: 400px;
-    width: 100%;
-    object-fit: cover;
-    object-position: top;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
 }
+
+
