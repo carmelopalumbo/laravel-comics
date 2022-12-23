@@ -15,12 +15,29 @@ body{
 
 main{
     background-color: $primary-color;
+    padding: 10px 0 30px 0;
+    h2 {
+        width: 215px;
+        font-size: 1.3rem;
+        transform: translateY(-60%);
+        margin-left: 12%;
+        text-align: center;
+        color: white;
+        padding: 10px 11px;
+        background-color: $secondary-color;
+      }
 }
 
 .content{
     width: 70%;
     margin: 0 auto;
 }
+
+button {
+    margin: 0 auto;
+    display: block;
+    @include buttons();
+  }
 
 @import "./partials/header.scss";
 @import "./partials/footer.scss";

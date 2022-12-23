@@ -2,6 +2,7 @@
 
 @section('content')
     <main>
+        <h2 class>CURRENT SERIES</h2>
         <a class="card-box" href="#">
             @foreach ($products as $product)
                 <div class="card">
@@ -10,5 +11,7 @@
                 </div>
             @endforeach
         </a>
+
+        <button>LOAD MORE</button>
     </main>
 @endsection
