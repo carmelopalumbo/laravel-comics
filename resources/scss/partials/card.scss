@@ -1,7 +1,8 @@
 .card {
+    position: relative;
     width: calc(100% / 6);
     padding: 20px;
-    cursor: pointer;
+    text-decoration: none;
     img {
       width: 150px;
       height: 150px;
@@ -14,17 +15,16 @@
     }
     h4 {
       color: white;
-      font-weight: 400;
       font-size: 0.85rem;
-      padding: 15px 0;
+      padding: 20px 0;
       vertical-align: middle;
       text-transform: uppercase;
     }
   }
 
-  .card-box{
+  .box-cards{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
   }

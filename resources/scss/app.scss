@@ -14,12 +14,14 @@ body{
 }
 
 main{
-    background-color: $primary-color;
-    padding: 10px 0 30px 0;
+    .inset{
+        background-color: $primary-color;
+        padding: 30px;
+    }
     h2 {
         width: 215px;
         font-size: 1.3rem;
-        transform: translateY(-60%);
+        transform: translateY(-100%);
         margin-left: 12%;
         text-align: center;
         color: white;
@@ -42,3 +44,4 @@ button {
 @import "./partials/header.scss";
 @import "./partials/footer.scss";
 @import "./partials/card.scss";
+@import "./partials/details.scss";

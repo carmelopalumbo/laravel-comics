@@ -2,16 +2,19 @@
 
 @section('content')
     <main>
-        <h2 class>CURRENT SERIES</h2>
-        <a class="card-box" href="#">
-            @foreach ($products as $product)
-                <div class="card">
-                    <img src="{{ $product['thumb'] }}" alt="{{ $product['title'] }}" />
-                    <h4>{{ $product['title'] }}</h4>
-                </div>
-            @endforeach
-        </a>
+        <div class="inset">
+            <h2 class>CURRENT SERIES</h2>
+            <div class="box-cards">
+                @foreach ($products as $product)
+                    <a class="card" href="{{ route('details', ['id' => $product['id']]) }}">
+                        <img src="{{ $product['thumb'] }}" alt="{{ $product['title'] }}" />
+                        <h4>{{ $product['title'] }}</h4>
+                    </a>
+                @endforeach
+            </div>
 
-        <button>LOAD MORE</button>
+
+            <button>LOAD MORE</button>
+        </div>
     </main>
 @endsection
