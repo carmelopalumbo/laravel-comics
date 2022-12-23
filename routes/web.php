@@ -58,8 +58,10 @@ Route::get('/videos', function () {
 
 Route::get('/details/{id}', function ($id) {
 
-    $product_get = array_filter(config('db.comics', fn ($item) => $item['id'] == $id));
+    $product_get = array_filter(config('db.comics'), fn ($item) => $item['id'] == $id);
+    //dd($product_get);
     $product_key = array_key_first($product_get);
     $product = $product_get[$product_key];
+    //dd($product_key);
     return view('comics_detail', compact('product'));
 })->name('details');
